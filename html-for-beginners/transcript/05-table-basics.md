@@ -2,7 +2,9 @@
 
 [00:00:20] Um, to show now what I've done is I've created a tutorial, five dot HTML file here, and the browser is pointing to that file. There's nothing in it at the moment. What I'm going to do is just jump to let's just use the fourth one. This is the tutorial that we did before about, um, formatting text. Let's copy that, put that in to the fifth, uh, file.
 
-[00:00:44] Let's save that. Change that to be five. Oops, not 45 blimey five. Uh, this is going to be how to create tables in [00:01:00] HTML. And I'm going to remove this paragraph and this pre tag, and here I'm just going to type in, okay. Whoops. This, uh, tutorial. Demonstrates how to create tables in HTML, and we're going to save that.
+[00:00:44] Let's save that. Change that to be five. Oops, not 45 blimey five. Uh, this is going to be how to create tables in
+
+[00:01:00] HTML. And I'm going to remove this paragraph and this pre tag, and here I'm just going to type in, okay. Whoops. This, uh, tutorial. Demonstrates how to create tables in HTML, and we're going to save that.
 
 [00:01:27] Okay. So let's begin. Let's refresh this to see what we've got. Now, what we want to do is create a table between this paragraph and this unordered list here. And we start by using the table tag, which is like, so now the table tag requires some nested table rows. Essentially what you do is you, you construct your table rows and then within those table rows, you create some table cells.
 
@@ -20,17 +22,23 @@
 
 [00:04:09] Cell one cell two and cell three. So what we've done is we've created a second table row underneath this, the header, and we've added three table cells, um, that correspond to these table headings. Let's just refresh the page and now we can see, we have these three. I like, so yeah. Now by default, the dimensions of this table is, um, set, um, automatically.
 
-[00:04:38] And basically it's using the width of the, the, the table cells to work out the width of, of how, how far, how wide the table needs to be. So if can you see when I'm dragging my mouse across this, I can, I can actually show you the, the, the gaps between the tables, the table cells, um, [00:05:00] But we can, what we can do is we can, we can give the, some arguments to the, um, to the table itself to change the dimensions, the width, and the height of the actual table.
+[00:04:38] And basically it's using the width of the, the, the table cells to work out the width of, of how, how far, how wide the table needs to be. So if can you see when I'm dragging my mouse across this, I can, I can actually show you the, the, the gaps between the tables, the table cells, um,
+
+[00:05:00] But we can, what we can do is we can, we can give the, some arguments to the, um, to the table itself to change the dimensions, the width, and the height of the actual table.
 
 [00:05:12] Let's do that now. So let's do width is equal to 100%. And we're going to save that. We're going to refresh the page. And can you see now that the table itself has a hundred percent width that goes spans, right? The way across the page, same with these table headers like that. Can you see that? There's this, this block here and then this block here what's happening is that the, uh, the browser is automatically calculating that we've got three, uh, three.
 
-[00:05:47] Uh, columns and therefore the, uh, it needs to be divided up in such a way that, um, that the balance of width are equal on each of these three, three [00:06:00] things. Now let's just remove that, for example, uh, for now, because I just wanna demonstrate something else. Let's just refresh that and bring it back to how it was.
+[00:05:47] Uh, columns and therefore the, uh, it needs to be divided up in such a way that, um, that the balance of width are equal on each of these three, three
+
+[00:06:00] things. Now let's just remove that, for example, uh, for now, because I just wanna demonstrate something else. Let's just refresh that and bring it back to how it was.
 
 [00:06:09] Let's say, for example, we want to change one of these things at the moment. Um, The table headers have the same, um, characters number of characters. And therefore it's going to be the same width, but let's say we want to change one of these. Let's say, um, let's give it a little bit of context. Let's say this is a shopping cart.
 
 [00:06:29] Um, let's say we have, um, a list of, uh, product name products. Yeah. And then we have a list of costs perhaps. Okay.
 
-[00:06:47] And then perhaps we have a list of delivery, delivery charge. Oops. And save that. Let's change this to be, um, [00:07:00] PHP book. Uh, let's give that a eight costs of 15. Um, or 25 for today's inflation and also have that as two pounds 50. Okay. Save that and refresh the page. Let's see what, how the, um, the whips have changed because we've changed the number of characters in each one of these, that being that the, the one in the middle has the smallest width will be the smallest width.
+[00:06:47] And then perhaps we have a list of delivery, delivery charge. Oops. And save that. Let's change this to be, um,
+
+[00:07:00] PHP book. Uh, let's give that a eight costs of 15. Um, or 25 for today's inflation and also have that as two pounds 50. Okay. Save that and refresh the page. Let's see what, how the, um, the whips have changed because we've changed the number of characters in each one of these, that being that the, the one in the middle has the smallest width will be the smallest width.
 
 [00:07:33] Let's refresh the page and notice that we have. Um, products. Um, and then we have the PHP book underneath, but the delivery charge itself is the longest. And also the cell underneath matches the width of, of, uh, the, the table header. Here. Let's go and add another row just to give it a little bit more context.
 
@@ -38,7 +46,9 @@
 
 [00:08:08] JavaScript course, um, it's going to have zero delivery, but it's going to be 750 full course and let's save that. So now we have a second, um, A row underneath. And even though that's zero, that the actual table cell is the same width as, as that. And then if I was to change this again, to be a width of, let's say a hundred percent, then it works.
 
-[00:08:42] That out as, uh, as, before and notice that the table headers are bold and centered and that's because, uh, the T hitches, excuse me, have a different set of styles, uh, predefined styles that th these TDS do. [00:09:00] Okay. Um, what else can we do with the whips? Well, we can actually define the whips per, per, uh, a table header.
+[00:08:42] That out as, uh, as, before and notice that the table headers are bold and centered and that's because, uh, the T hitches, excuse me, have a different set of styles, uh, predefined styles that th these TDS do.
+
+[00:09:00] Okay. Um, what else can we do with the whips? Well, we can actually define the whips per, per, uh, a table header.
 
 [00:09:08] So let's say that this is. Um, we're going to remove the width here and let's say that we want products, whoops. To have a width of 50%. So what will happen here is that that becomes 50% with defining this. To be 50% and then the, these will be calculated on the fly. So let's save that and refresh the page.
 
