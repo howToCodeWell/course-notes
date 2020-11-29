@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_slug: hyperlinks
+tutorial_number: 03
+---
 In the third HTML tutorial we cover the image tag and how to add images to web pages.
 
 The image tag is called `<img>` and it is a self closing tag. Here is an example

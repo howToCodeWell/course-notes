@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_slug: table-basics
+tutorial_number: 05
+---
 HTML tables contain tabular data in rows and columns.  
 The `<tr>` element represents a table row and a `<td>` is a table cell.
 <table>
