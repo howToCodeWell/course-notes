@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 01
+tutorial_number: 1
 type: note
 ---
 HTML is the cornerstone of the web.  HTML stands for Hyper Text Markup Language. It is the markup language of the internet.  

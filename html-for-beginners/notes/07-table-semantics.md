@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 07
+tutorial_number: 7
 type: note
 ---
 Notes coming soon.

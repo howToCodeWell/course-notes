@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 04
+tutorial_number: 4
 type: note
 ---
 Paragraphs can contain all sorts of formatted text such as strong text which convays importance, italic text which is used to emphasize the content. 

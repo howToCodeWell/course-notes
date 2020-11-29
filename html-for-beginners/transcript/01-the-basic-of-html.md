@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 01
+tutorial_number: 1
 type: transcript
 ---
 [[00:00:00]]('?time-code=00:00:00') Welcome to the very first HTML tutorial. In this HTML series we're going to talk about the very fundamentals and the basics of HTML. HTML is the cornerstone of web development. Without HTML you literally won't have a web page. This is because HTML stands for Hypertext Markup Language. It is the language that marks up a webpage. So when a browser loads a page, it reads the markup in HTML and decides how the page is to be constructed. In fact, it doesn't make a decision. So in the markup you can designate certain tags to define structural elements and layouts of a web page as well as its content.

@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 06
+tutorial_number: 6
 type: note
 ---
 For complicated layouts, HTML tables can be nested.  Placing tables withing tables is a common approach when structuring HTML e-mails.

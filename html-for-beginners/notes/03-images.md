@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 03
+tutorial_number: 3
 type: note
 ---
 In the third HTML tutorial we cover the image tag and how to add images to web pages.

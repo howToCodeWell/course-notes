@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 05
+tutorial_number: 5
 type: note
 ---
 HTML tables contain tabular data in rows and columns.  
