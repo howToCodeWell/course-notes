@@ -1,6 +1,5 @@
 ---
 course_slug: html-for-beginners
-tutorial_slug: the-basics-of-html
 tutorial_number: 01
 type: transcript
 ---
