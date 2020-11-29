@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 03
+tutorial_number: 3
 type: transcript
 ---
 [00:00:00] Hello, and welcome to the third part of the HTML tutorial series. Today, we're going to look at images and how we can add an image to a web page. Now, an image tag has several attributes that we'll be discussing and going through in detail, two of which are the width and height. Now, the width and height and B.

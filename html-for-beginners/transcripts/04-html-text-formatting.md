@@ -1,6 +1,6 @@
 ---
 course_slug: html-for-beginners
-tutorial_number: 04
+tutorial_number: 4
 type: transcript
 ---
 [00:00:00] Welcome to the fourth part of the HTML tutorial series. Today we're going to look at how we can format the text within a paragraph. Let's say we want to change the look and feel of the text within a paragraphs. So what I've done is I've created a blank tutorial file here.
