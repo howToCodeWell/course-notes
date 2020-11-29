@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_number: 1
+type: note
+---
 HTML is the cornerstone of the web.  HTML stands for Hyper Text Markup Language. It is the markup language of the internet.  
 In this tutorial we will go over the fundamentals of Hyper Text Markup (HTML). During this tutorial I will discuss the difference between HTML and other languages such as Python and JavaScript we also cover the history of HTML.
 In this tutorial I demonstrate the following HTML elements and declarations.

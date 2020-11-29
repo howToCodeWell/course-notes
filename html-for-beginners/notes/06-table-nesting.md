@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_number: 6
+type: note
+---
 For complicated layouts, HTML tables can be nested.  Placing tables withing tables is a common approach when structuring HTML e-mails.
 A nested table will be placed inside the parents `<td></td>` element like so
 <table>

@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_number: 7
+type: transcript
+---
 [00:00:00] Hello, and welcome to the seventh part of the HTML tutorial series. Today, we're going to look at some advanced semantics of a HTML table. There are three elements that I've left out. In my previous HTML table tutorials, these are used to identify the correct portions of a table, and they're used by screen readers for accessibility and other things like that.
 
 [00:00:24] So when a screen reader is reading the contents of the web page, it uses these, uh, these three elements to identify the correct. Areas of, of the table. These are the table headers, the table footers as well as the table body. So T head for the table, header, uh, T body for the, for the body, as well as T foot for the footer of the table.
