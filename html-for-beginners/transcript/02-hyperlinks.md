@@ -1,3 +1,8 @@
+---
+course_slug: html-for-beginners
+tutorial_number: 02
+type: transcript
+---
 [00:00:00] Welcome to another HTML tutorial today, we're going to look at element tags. Element tags are how we can link web pages together. So when a browser sees a tag in the markup in HTML,  it knows that it is a link. Now these links can be links between the pages between the websites. Between web pages or to external pages themselves.
 
 [00:00:24] We're also going to look at attributes within the, a tag as well. Attributes is something that I haven't covered yet in, in the HTML markup. Now, what I'm going to do is create a second HTML page and we're going to call it tutorial two. So as you can see here, we've created a HTML file and it's completely blank.

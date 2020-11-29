@@ -1,7 +1,7 @@
 ---
 course_slug: html-for-beginners
-tutorial_slug: table-semantics
 tutorial_number: 07
+type: note
 ---
 Notes coming soon.
 

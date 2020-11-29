@@ -1,7 +1,7 @@
 ---
 course_slug: html-for-beginners
-tutorial_slug: hyperlinks
 tutorial_number: 02
+type: note
 ---
 HTML documents can be linked together using Hyperlinks.  These HTML elements are defined using a tags:
 
