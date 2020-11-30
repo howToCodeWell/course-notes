@@ -1,3 +1,8 @@
+---
+course_slug: php-strings
+tutorial_number: 1
+type: note
+---
 ## PHP Beginners Course Strings Tutorial #1 Basics
 
 
