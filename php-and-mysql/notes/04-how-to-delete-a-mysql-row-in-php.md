@@ -6,7 +6,7 @@ type: note
 
 To delete a record from a MySQL database run the following:
 
-```mysql
+```sql
 DELETE FROM `users` WHERE `id` = '123'
 ```
 This can be done in PHP using MySQLi like so
