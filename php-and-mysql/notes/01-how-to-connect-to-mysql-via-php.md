@@ -6,9 +6,10 @@ type: note
 
 There are two ways to connect to MySQL via PHP using the MySQLi extension
 - [Procedural](#procedural)
-- [Object Oriented](#object-oriented )
+- [Object Oriented](#object-oriented)
 
 Both require the hostname, username, and database parameters. The port and socket are optional
+
 ## Procedural
 
 ###  Connecting to the database
