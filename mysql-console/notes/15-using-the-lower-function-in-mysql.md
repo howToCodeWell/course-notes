@@ -1,6 +1,6 @@
 ---
 course_slug: mysql-console
-tutorial_number: 14
+tutorial_number: 15
 type: note
 ---
 
