@@ -29,7 +29,7 @@ type: note
 
 - Change the `course_slug` to the slug of the course
 - Change the `tutorial_number` to the number of the tutorial
-- Change the `type` should be `transcript`
+- Change the `type` to `transcript`
     
 ## Contributions
 We are looking for notes that cover more detail about a course and fill knowledge gaps that a course didn't cover.
