@@ -1,8 +1,3 @@
----
-course_slug: html-for-beginners
-tutorial_number: 5
-type: transcript
----
 [00:00:00] Welcome to the fifth HTML five tutorial in this basic HTML five series today, we're going to look at tables, how we can create a table and, uh, how we can display a table in HTML. Now, tables in HTML require lots of nested tasks. So I'll go through this slowly and methodically, hopefully at the end of it, we'll have some nice tables.
 
 [00:00:20] Um, to show now what I've done is I've created a tutorial, five dot HTML file here, and the browser is pointing to that file. There's nothing in it at the moment. What I'm going to do is just jump to let's just use the fourth one. This is the tutorial that we did before about, um, formatting text. Let's copy that, put that in to the fifth, uh, file.

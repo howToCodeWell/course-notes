@@ -1,8 +1,3 @@
----
-course_slug: html-for-beginners
-tutorial_number: 6
-type: transcript
----
 [00:00:00] Hello, and welcome to the sixth part of the HTML tutorial series. Today, we're going to look at tables and, um, advanced table features, one of which is nesting in tables. So that's where you have a table within a table. Now, this was a very useful back in the HTML four days where things like CSS. And, um, you know, style sheets and even Java script, uh, wasn't really, um, useful enough as useful as it is today, at least for designing and laying out and positioning elements on the page.
 
 [00:00:41] So. Back in the day, uh, H uh, sorry, tables were nested within each other. Um, and that allow designers to control where certain items off the page, certain elements on the page, uh, where, so for example, if you had it. Border around your page, you could use a table and you could use the table columns as a way of creating that border.
