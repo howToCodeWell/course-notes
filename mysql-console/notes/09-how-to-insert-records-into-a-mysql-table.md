@@ -1,9 +1,3 @@
----
-course_slug: mysql-console
-tutorial_number: 9
-type: note
----
-
 The following SQL will insert a record in a MySQL table
 
 ```sql

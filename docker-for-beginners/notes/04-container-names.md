@@ -1,9 +1,3 @@
----
-course_slug: docker-for-beginners
-tutorial_number: 4
-type: note
----
-
 A Docker container is named randomly when it is created. 
 This name can be set using the `--name` argument when running the container.
 

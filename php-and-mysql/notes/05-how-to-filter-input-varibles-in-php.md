@@ -1,9 +1,3 @@
----
-course_slug: php-mysql
-tutorial_number: 5
-type: note
----
-
 To filter user input use the `filter_input` function.
 This function takes 4 parameters and returns a mixed response.
 `filter_input ( int $type , string $var_name , int $filter = FILTER_DEFAULT , array|int $options = 0 ) : mixed`

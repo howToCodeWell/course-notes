@@ -1,9 +1,3 @@
----
-course_slug: linux-bash-for-beginners
-tutorial_number: 2
-type: note
----
-
 ## Method one : Create directories one at a time
 
 Create a directory called temp

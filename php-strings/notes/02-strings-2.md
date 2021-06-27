@@ -1,8 +1,3 @@
----
-course_slug: php-strings
-tutorial_number: 2
-type: note
----
 ## PHP Beginners Course Strings Tutorial #2
 
 ## Manipulating Strings

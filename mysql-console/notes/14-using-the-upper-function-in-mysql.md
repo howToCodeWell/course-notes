@@ -1,8 +1,3 @@
----
-course_slug: mysql-console
-tutorial_number: 14
-type: note
----
 The `UPPER` MySQL function converts a string to uppercase. This is an alias to the `UCASE` function
 
 The following SQL will return all the first names from the `tbl_user` table as upper case

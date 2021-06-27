@@ -1,9 +1,3 @@
----
-course_slug: mysql-console
-tutorial_number: 3
-type: note
----
-
 The following SQL will remove (Drop) a MySQL database
 
 ```sql

@@ -1,9 +1,3 @@
----
-course_slug: php-mysql
-tutorial_number: 2
-type: note
----
-
 The following SQL will select records from a MySQL table
 
 ```sql
