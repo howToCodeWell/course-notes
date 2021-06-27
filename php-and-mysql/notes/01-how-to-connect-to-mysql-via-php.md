@@ -1,9 +1,3 @@
----
-course_slug: php-mysql
-tutorial_number: 1
-type: note
----
-
 There are two ways to connect to MySQL via PHP using the MySQLi extension
 - Procedural
 - Object Oriented

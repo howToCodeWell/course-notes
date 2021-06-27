@@ -1,9 +1,3 @@
----
-course_slug: php-mysql
-tutorial_number: 4
-type: note
----
-
 To delete a record from a MySQL database run the following:
 
 ```sql

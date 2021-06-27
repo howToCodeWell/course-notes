@@ -1,8 +1,3 @@
----
-course_slug: php-strings
-tutorial_number: 3
-type: note
----
 ## PHP Beginners Course Strings Tutorial #3
 
 ## Capitalizing the First Letter in the First Word Within a String

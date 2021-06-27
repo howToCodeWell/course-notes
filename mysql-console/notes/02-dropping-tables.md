@@ -1,9 +1,3 @@
----
-course_slug: mysql-console
-tutorial_number: 2
-type: note
----
-
 The following SQL will remove (Drop) the `tbl_user` MySQL table 
 
 ```sql

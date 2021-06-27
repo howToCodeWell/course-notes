@@ -1,8 +1,3 @@
----
-course_slug: linux-bash-for-beginners
-tutorial_number: 3
-type: note
----
 To remove a file in the terminal use the `rm` command.
 
 List the contents of the current working directory using the `ls` command.
