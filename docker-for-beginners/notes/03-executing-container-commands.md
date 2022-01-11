@@ -21,5 +21,5 @@ $ docker exec -it app bin/codept run unit
 Access the Python interpreter
 
 ```bash
-$ docker exec -it app pythonß
+$ docker exec -it app python
 ```
