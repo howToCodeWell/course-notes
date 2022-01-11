@@ -16,3 +16,7 @@ If the argument was `-p 8080:80` then port 80 of the host machine would be mappe
 The container would be accessed using port 8080.
 
 To see the exposed ports of a container run `docker port <CONTAINER_NAME>`. In this example run `docker port webserver`.
+This should return a similar output to the following:
+```bash
+80/tcp -> 0.0.0.0:80
+```
