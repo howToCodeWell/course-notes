@@ -2,7 +2,7 @@
 ## Lesson 1
 ## Containers Vs Images
 
-[00:00:00] Good morning and welcome to another [How To Code Well] (https://howtocodewell.net) tutorial.
+[00:00:00] Good morning and welcome to another [How To Code Well](https://howtocodewell.net) tutorial.
 
 This tutorial is the first tutorial regarding Docker images and containers.
 
