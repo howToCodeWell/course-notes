@@ -52,25 +52,33 @@ So for example, if you want to set up some security or some SSH rules or some  c
 ```bash
 docker-machine active
 ```
+
 Now this should hopefully bring back `how-to-code-well`. Yep. So we're in How To Code Well.
 
 [00:08:59] So any image that I pull will be against this machine, which is pretty handy or assigned to this machine, which is pretty handy. So what I can do is run Docker images.
+
 ```bash
 docker images
 ```
+
 Now this is going to get the list of images that I have against this machine. We can see that we don't have any images at the moment.
 
 [00:09:24] So this would be where the repositories are. This would be where the tags are, the image ID and so forth. The size of the file size of that image. Likewise, if I did a Docker ps -a
+
 ```bash
 docker ps -a
 ```
+
 We can see the containers that we have. Currently we have no containers at all. And that's because we have no images at all.
 
 [00:09:42] Let's just clear that down.
+
 ```bash
 clear
 ```
+
 Let's pull down the Ubuntu image. So let's just go back to here. Let's see what we need to do. Docker pull Ubuntu. It's as simple as that. So let's do that.
+
 ```bash
 docker pull ubuntu
 ```
@@ -94,7 +102,9 @@ This is the rule, the repository name and then colon. And we want to get that sp
 ```bash
 docker pull ubuntu:12.04
 ```
+
 So now what we've done is we've pulled two different versions of Ubuntu. And if I was to do Docker image
+
 ```bash
 docker image
 ```
@@ -102,13 +112,17 @@ docker image
 [00:12:18] We can see that we have the two images. The latest tag and the 12.04 tag. Notice again that they both have the unidentified tag that we can play with. But again i'll talk about that in future tutorials perhaps. So what I'm going to do is remove these images.
 
 [00:12:42] I'm just going to clear the screen to give some space.
+
 ```bash
 clear
 ```
+
 Then do a Docker images again.
+
 ```bash
 docker image
 ```
+
 To remove an image what we need to do is type Docker and then it's `rim`. Okay. So `rm` removes a container `rim` removes an image. You can either specify the repository and the tag or the image ID.
 
 ```bash
@@ -117,11 +131,13 @@ docker rmi ubuntu:12.04
 
 [00:13:07] So I will do it by image ID because it's easy to identify it.
 So let's do that and we can see that we've untagged the latest and we've moved all of these things. Although the parts that made up the image, all of the layers.
+
 ```bash
 docker rmi abcd123
 ```
 
 [00:13:35] What I should do just as proof let's do Docker images.
+
 ```bash
 docker image
 ```
@@ -131,6 +147,7 @@ We can see that we have just 12.04. So I know I removed 12.04 now, so let's do a
 [00:14:02] But I'm going to just paste that one in. So I'm going to remove this one. What it's going to do is it's going to complain that this image ID doesn't exist but then it's going to just remove that.
 
 So let's just do that now so we can see that that's untagged and we can see the notice filter and move image.
+
 ```bash
 docker rmi abc123 xyz123
 ```
@@ -145,6 +162,7 @@ docker images
 ```
 
 So I'm just going to do docker pull and I'm just going to pull down the latest, so I don't need to do that. I can also do latest of course and that will pull down that latest image like so.
+
 ```bash
 docker pull ubuntu:latest
 ```
@@ -158,6 +176,7 @@ docker image
 ```
 
 That's great. Again, if we did docker ps minus a.
+
 ```bash
 docker ps -a
 ```
@@ -174,12 +193,15 @@ So what I'm going to do to explain those. And I'm going to show you all the argu
 [00:16:09] As you can see there are loads and loads and loads. We can do all sorts of crazy and wonderful things with the IP addresses, lots of stuff with the volumes, with the Mac addresses with privilege modes, with all sorts of things. The two that I'm going to use at the moment are the interactive flag, which is `-i`. This keeps the container open. This allows you to actually interact with the container which is handy and also `-t`, which deals with the TTY which is pretty handy.
 
 So let's clear the screen down.
+
 ```bash
 clear
 ```
+
 Okay. I need to get the image ID. So Docker images and we're going to do Docker run and we're going to do `-i` and `-t`.
 
 [00:17:03] Now we can also do just `-it` for shorthand which is pretty good. We would specify the image ID that we want to run. So I'm going to just paste that in. We're going to run it interactively and against this image ID. The thing that we want to run within the container is bin bash.
+
 ```bash
 Docker run -it ubuntu /bin/bash
 ```
@@ -187,13 +209,17 @@ Docker run -it ubuntu /bin/bash
 [00:17:28] Okay. So let's just explain what that means. So I'm going to run a container and I'm going to run it against this image and I'm going to do it interactively. By doing it interactively I've specified what command I want to run. So `bin\bash`. So running this will give me a bash shell within that container.
 
 [00:17:54] So now notice how that's changed. So I've got a route at the container ID. Whereas the one above here is my MacBook pro command entry. So we're actually in this container that we've created. We're actually in Ubuntu. So if I was to do an `ls`, we can actually see the the file system of Ubuntu.
+
 ```bash
 ls
 ```
+
 [00:18:22] If I was to do perhaps `cat` then `etc` then get the sources list. We can actually see the sources list of Ubuntu that was used to get this image. Let's just do an exit.
+
 ```bash
 exit
 ```
+
 So this exit now is going to come out of this container. Please be aware when you're in the container because it can be a little bit confusing at times not knowing which container you're in.
 
 [00:18:51] So let's just exit and do docker ps -a.
@@ -201,9 +227,11 @@ So this exit now is going to come out of this container. Please be aware when yo
 ```bash
 docker ps -a
 ```
+
 Now this is going to list the container that we were just in. So we've created the container. That was the image ID that we used. That's the container ID that we were in. Notice that that is the same as this part here. This is the command, like I said that we were using. It was created about a minute ago and we've exited out of that container.
 
 [00:19:15] Docker created the container a name. These names are created automatically. You can also set them up yourself. Perhaps I'll show that in a different video. We can see that this container was created and an exited. What we can do is start the container so we can do `docker start` and we can start the container against the container ID.
+
 ```bash
 docker start containerID
 ```
@@ -211,6 +239,7 @@ docker start containerID
 [00:19:49] What that is going to do is it's just going to start the container. It's not going to give you that interactive shell. For example if this container was just doing a process like MySQL Apache then you would start and stop that by `docker start`
 
 [00:20:07] As long as you've mapped the relevant bits and pieces together we can see that it's up. Now as I said before I'll show you how to do a docker start and  a Docker stop. Like so.
+
 ```bash
 docker stop containerID
 docker start containerID
@@ -227,6 +256,7 @@ docker rm containerID
 ```bash
 clear
 ```
+
 Before I said earlier on that we can have many containers that are fed off of an image.
 
 [00:19:49] I'll demonstrate that now. What I'll do is, so we've got the Docker image. I will do a Docker run. So that's gonna run the first container and notice that I've got a different container ID now because they get generated automatically.
